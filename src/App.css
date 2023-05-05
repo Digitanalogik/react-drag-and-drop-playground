@@ -1,10 +1,12 @@
 .App {
-  display: block;
+  display: flex;
   position: absolute;
   left: 0;
-  top: 10;
+  top: 0;
+  padding: 5em;
   width: 100vw;
   height: 100vh;
   background-color: #477186;
   color: #000000;
+  overflow: hidden;
 }

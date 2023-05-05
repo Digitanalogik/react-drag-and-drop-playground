@@ -1,6 +1,6 @@
 .drag-element {
   display: block;
-  position: absolute;
+  position: sticky;
   top: 10em;
   right: 10em;
   width: 5em;
@@ -17,4 +17,19 @@
 
 .drag-element > .text {
   color: #6E92A1;
+}
+
+.empty-element {
+  display: block;
+  position: static;
+  top: 10em;
+  right: 10em;
+  width: 5em;
+  height: 5em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  color: black;
+  border: dashed 5px #806215;
+  background-color: #D4B76A;
+  z-index: 1;
 }

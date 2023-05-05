@@ -1,11 +1,11 @@
 .drop-container {
   display: flex;
   flex-direction: column;
-  position: relative;
   top: 5em;
   left: 5em;
-  width: 20em;
-  height: 20em;
+  width: 10em;
+  height: 10em;
+  margin: 3em;
   padding: 1em;
   box-sizing: border-box;
   color: #032536;
@@ -13,9 +13,4 @@
   background-color: #6E92A1;
   font-size: 24px;
   font-weight: 600;
-}
-
-
-.drop-container > .text {
-  margin-bottom: 1em;
 }

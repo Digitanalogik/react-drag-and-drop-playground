@@ -3,6 +3,7 @@ import { useDraggable } from "@dnd-kit/core";
 import './Draggable.css';
 
 interface DraggableProps {
+    id: string;
     text: string;
     children?: any;
 };

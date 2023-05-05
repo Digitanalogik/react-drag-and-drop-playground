@@ -3,13 +3,15 @@ import { useDroppable } from '@dnd-kit/core';
 import './Droppable.css';
 
 interface DroppableProps {
-    text: string;
+    id: string
+    text?: string;
     children?: any;
-}
+};
 
 const Droppable: FC<DroppableProps> = (props): JSX.Element => {
+ 
     const { isOver, setNodeRef } = useDroppable({
-        id: 'droppable',
+        id: props.id,
     });
     const style = {
         color: isOver ? '#0F5B30' : undefined
