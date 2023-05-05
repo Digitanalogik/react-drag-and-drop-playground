@@ -1,0 +1,15 @@
+.drag-element {
+  display: block;
+  position: absolute;
+  top: 10em;
+  right: 10em;
+  width: 5em;
+  height: 5em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  color: black;
+  border: solid 3px black;
+  background-color: #113C51;
+  font-size: 24px;
+  font-weight: 600;
+}
