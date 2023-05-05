@@ -12,7 +12,7 @@ const Droppable: FC<DroppableProps> = (props): JSX.Element => {
         id: 'droppable',
     });
     const style = {
-        color: isOver ? 'green' : undefined
+        color: isOver ? '#0F5B30' : undefined
     };
 
     return (

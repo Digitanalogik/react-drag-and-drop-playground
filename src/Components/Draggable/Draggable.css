@@ -12,4 +12,9 @@
   background-color: #113C51;
   font-size: 24px;
   font-weight: 600;
+  z-index: 2;
+}
+
+.drag-element > .text {
+  color: #6E92A1;
 }
